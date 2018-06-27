@@ -14,6 +14,7 @@ About me:
 
 
 References:
+* [HackerRank](https://www.hackerrank.com/domains/python)
 * [Greedy AI](https://www.youtube.com/watch?v=xOCurBYI_gY)
 * [Smarter AI](https://www.youtube.com/watch?v=qv6UVOQ0F44)
 * [3Blue1Brown: To Invent Math](https://www.youtube.com/watch?v=XFDM1ip5HdU)
