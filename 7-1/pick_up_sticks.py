@@ -29,7 +29,7 @@ def generate_gameboard():
         a_gameboard.append(column)
 
 def position_on_board(gameboard,x,y):
-    if x < 0 || y < 0: return False
+    if x < 0 or y < 0: return False
     if y >= len(gameboard): return False
     if x >= len(gameboard[y]): return False
     return True
@@ -63,4 +63,4 @@ def move_player(gameboard, pvector):
     change_place(gameboard,x,y,PLAYER)
 
 def print_board(gameboard):
-    for 
+    for
