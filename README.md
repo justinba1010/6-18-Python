@@ -20,6 +20,16 @@ References:
 * [3Blue1Brown: To Invent Math](https://www.youtube.com/watch?v=XFDM1ip5HdU)
   * This is one of the best Youtube channels there are, I recommend his other videos highly as well
 
+Books:
+* [Code: The Hidden Language](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319/ref=sr_1_4?ie=UTF8&qid=1530123385&sr=8-4&keywords=Code)
+  * The best book I've ever read about computing.
+* [How Computers Work](https://www.amazon.com/gp/product/1442113987/ref=oh_aui_detailpage_o06_s01?ie=UTF8&psc=1)
+* Books I want to read:
+  * [Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_11?s=books&ie=UTF8&qid=1530123766&sr=1-11&keywords=Data+Structures)
+    * I've heard incredible things about this book. Higher level algorithms, mathematical proofs. Co-authored by Ronald Rivest, the father of RSA cryptography.
+  * [Graph Theory](https://www.amazon.com/Graph-Theory-Graduate-Texts-Mathematics/dp/3662536218/ref=sr_1_2?s=books&ie=UTF8&qid=1530123672&sr=1-2&keywords=Graduate+Graph+Theory)
+  * [Functional Programming(The other programming paradigm like Object Oriented)](https://www.amazon.com/Introduction-Functional-Programming-Calculus-Mathematics/dp/0486478831/ref=sr_1_1?s=books&ie=UTF8&qid=1530123938&sr=1-1&keywords=introduction+to+functional+programming+through+lambda+calculus)
+
 And most important part, remember to enjoy learning to program, and whenever a problem seems too hard, take a step back, get a good nights sleep, and usually that problem will be much easier the next day (sometimes your brain needs some sleep to process everything).
 
 "If you can’t write it down in English, you can’t code it."
