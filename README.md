@@ -2,7 +2,7 @@
 
 Hi class, I am Justin Baum. I am a student at the University of South Carolina. Here I will be posting materials from class as well as cool reference materials and projects you can do to hone in your skills.
 
-About me: Justin Baum
+About me:
 * 3<sup>rd</sup> ICPC Regionals South East Division Fall 2017
 * 1<sup>st</sup> University of South Carolina Codeathon Fall 2017
 * 4<sup>th</sup> University of South Carolina Codeathon Spring 2018
