@@ -12,7 +12,7 @@ About me: Justin Baum
 * Computer Science and programming are not equal
 
 
-Reference:
+References:
 * [Greedy AI](https://www.youtube.com/watch?v=xOCurBYI_gY)
 * [Smarter AI](https://www.youtube.com/watch?v=qv6UVOQ0F44)
 * [3Blue1Brown](https://www.youtube.com/watch?v=XFDM1ip5HdU)
