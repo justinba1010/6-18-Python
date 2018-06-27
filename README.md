@@ -27,5 +27,5 @@ And most important part, remember to enjoy learning to program, and whenever a p
 "If you have too many special cases, you are doing it wrong."
 -Craig Zerouni
 
-"It is faster to make a four-inch mirror then a six-inch mirror than to make a six-inch mirror.""
+"It is faster to make a four-inch mirror then a six-inch mirror than to make a six-inch mirror."
 -Bill McKeeman
