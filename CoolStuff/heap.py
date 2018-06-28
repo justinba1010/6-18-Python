@@ -16,11 +16,12 @@ class binaryheap:
         self.addHelp(node)
 
     def pop(self):
-        junkNode = self.Node(None, float("-inf")*(-1 if self.max else 1))
-        self.heap.append(junkNode)
+        if(len(self.heap) == 0): return
+        if(len(self.heap) == 1):
+            return self.heap.pop()
         self.swap(0, len(self.heap)-1)
         root = self.heap.pop()
-        self.heapifyDown(len(self.heap)-1)
+        self.heapifyDown(0)
         return root
 
     def heapifyUp(self, currIndex):
@@ -39,14 +40,14 @@ class binaryheap:
         if(left >= len(self.heap)):
             return
         if(right >= len(self.heap)):
-            self.swap(headIndex,right)
+            self.swap(headIndex,left)
             return
-        if(priorityGreater(left, right)):
+        if(self.priorityGreater(left, right)):
             self.swap(headIndex,left)
             self.swap(left,right)
         else:
             self.swap(headIndex,right)
-        heapifyDown(right_child(headIndex))
+        self.heapifyDown(self.right_child(headIndex))
     #Helper
     def right_child(self,i):
         return 2*i+2
