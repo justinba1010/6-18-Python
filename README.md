@@ -1,4 +1,6 @@
 # Pen Academy Python
+Update 6-27-18
+I have a piece of work I worked with another student. He is preparing for an interview for Amazon, and he has to go over all data structure before he goes in, so we are programming them all from scratch again. Take a look.
 
 Hi class, I am Justin Baum. I am a student at the University of South Carolina. Here I will be posting materials from class as well as cool reference materials and projects you can do to hone in your skills.
 
