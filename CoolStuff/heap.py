@@ -9,7 +9,7 @@ class binaryheap:
 
     def addHelp(self, aNode):
         self.heap.append(aNode)
-        self.heapifyUp()
+        self.heapifyUp(len(self.heap)-1)
 
     def add(self, data, weight):
         node = self.Node(data, weight)
@@ -20,23 +20,23 @@ class binaryheap:
         self.heap.append(junkNode)
         self.swap(0, len(self.heap)-1)
         root = self.heap.pop()
-        self.heapifyDown()
+        self.heapifyDown(len(self.heap)-1)
         return root
 
     def heapifyUp(self, currIndex):
-        if(currIndex == 0) return
-        if(self.priorityGreater(currIndex, parent(currIndex))):
-            swap(currIndex, parent(currIndex))
-            self.heapifyUp(parent(currIndex))
-    
+        if(currIndex == 0): return
+        if(self.priorityGreater(currIndex, self.parent(currIndex))):
+            self.swap(currIndex, self.parent(currIndex))
+            self.heapifyUp(self.parent(currIndex))
+
     def heapifyDown(self, headIndex):
         """if(headIndex >= len(self.heap)-1):
             #We are done, it is the bottom
             #No children
             return"""
         left = self.left_child(headIndex)
-        right self.right_child(headIndex)
-        if(left >= len(self.heap):
+        right = self.right_child(headIndex)
+        if(left >= len(self.heap)):
             return
         if(right >= len(self.heap)):
             self.swap(headIndex,right)
