@@ -23,8 +23,12 @@ class binaryheap:
         self.heapifyDown()
         return root
 
-    def heapifyUp(self):
-        pass
+    def heapifyUp(self, currIndex):
+        if(currIndex == 0) return
+        if(self.priorityGreater(currIndex, parent(currIndex))):
+            swap(currIndex, parent(currIndex))
+            self.heapifyUp(parent(currIndex))
+    
     def heapifyDown(self, headIndex):
         """if(headIndex >= len(self.heap)-1):
             #We are done, it is the bottom
