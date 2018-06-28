@@ -31,9 +31,36 @@ class binaryheap:
             self.heapifyUp(self.parent(currIndex))
 
     def heapifyDown(self, headIndex):
-        # Broken
-        pass
+        #Check if index has children
+        right = self.right_child(headIndex)
+        left = self.left_child(headIndex)
+        if(headIndex >= len(self.heap)-1): return #We are done
+        if(left > len(self.heap)-1):
+            #Left child does not exist
+            return
+        if(self.right_child(headIndex) > len(self.heap)-1):
+            #Only left child
+            if(self.priorityGreater(left, headIndex)):
+                self.swap(headIndex, left)
+                self.heapifyDown(left)
+            else: return #Else we are done because it is in right spot
+        else:
+            if(self.priorityGreater(left, right)):
+                # Go left
+                if(self.priorityGreater(left, headIndex)):
+                    #Left child is the biggest child and we swap
+                    self.swap(headIndex, left)
+                    self.heapifyDown(left)
+                else: return # We are done, the bigger child is too small to swap
+            else:
+                # Go right
+                if(self.priorityGreater(right, headIndex)):
+                    #Left child is the biggest child and we swap
+                    self.swap(headIndex, right)
+                    self.heapifyDown(right)
+                else: return # We are done, the bigger child is too small to swap
     #Helper
+    
     def right_child(self,i):
         return 2*i+2
     def left_child(self,i):
