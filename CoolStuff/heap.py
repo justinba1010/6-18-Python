@@ -31,33 +31,23 @@ class binaryheap:
             self.heapifyUp(self.parent(currIndex))
 
     def heapifyDown(self, headIndex):
-        """if(headIndex >= len(self.heap)-1):
-            #We are done, it is the bottom
-            #No children
-            return"""
-        left = self.left_child(headIndex)
-        right = self.right_child(headIndex)
-        if(left >= len(self.heap)):
-            return
-        if(right >= len(self.heap)):
-            self.swap(headIndex,left)
-            return
-        if(self.priorityGreater(left, right)):
-            self.swap(headIndex,left)
-            self.swap(left,right)
-        else:
-            self.swap(headIndex,right)
-        self.heapifyDown(self.right_child(headIndex))
+        # Broken
     #Helper
     def right_child(self,i):
         return 2*i+2
     def left_child(self,i):
         return 2*i+1
     def parent(self,i):
-        return i//2
+        return (i-1)//2
     def swap(self, i,j):
         self.heap[i], self.heap[j] = self.heap[j], self.heap[i]
     def priorityGreater(self,i,j):
         I = self.heap[i]
         J = self.heap[j]
         return (self.max and (I.data > J.data)) or (not self.max and(I.data < J.data))
+
+    def printdata(self):
+        i = 0
+        for item in self.heap:
+            print(("root:\t" if i == 0 else ("left of " + str(self.parent(i))) if i % 2 == 1 else ("right of " + str(self.parent(i))))+ "\t"+str(item.data))
+            i += 1

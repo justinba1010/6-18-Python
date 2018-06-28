@@ -1,22 +1,16 @@
 from heap import binaryheap
-
+import random
 heap = binaryheap()
 
-heap.add(1,1)
-heap.add(2,2)
-heap.add(3,3)
-heap.add(4,4)
-heap.add(5,5)
+for i in range(10):
+    x = random.randint(0,100)
+    print(x)
+    heap.add(x,x)
 
-while(len(heap.heap) > 0):
-    print(heap.pop().data)
+heap.printdata()
 
-minheap = binaryheap()
-minheap.add(5,5)
-minheap.add(4,4)
-minheap.add(3,3)
-minheap.add(2,2)
-minheap.add(1,1)
-
-while(len(minheap.heap) > 0):
-    print(minheap.pop().data)
+y = heap.pop()
+while y != None:
+    print(y.data)
+    heap.printdata()
+    y = heap.pop()
