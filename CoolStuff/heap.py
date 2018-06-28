@@ -32,6 +32,7 @@ class binaryheap:
 
     def heapifyDown(self, headIndex):
         # Broken
+        pass
     #Helper
     def right_child(self,i):
         return 2*i+2
