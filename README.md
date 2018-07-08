@@ -26,6 +26,9 @@ Books:
 * [Code: The Hidden Language](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319/ref=sr_1_4?ie=UTF8&qid=1530123385&sr=8-4&keywords=Code)
   * The best book I've ever read about computing.
 * [How Computers Work](https://www.amazon.com/gp/product/1442113987/ref=oh_aui_detailpage_o06_s01?ie=UTF8&psc=1)
+* Books I am reading:
+  * [Learn You Some Erlang for Great Good!](https://www.amazon.com/Learn-Some-Erlang-Great-Good/dp/1593274351/ref=sr_1_1?s=books&ie=UTF8&qid=1531074564&sr=1-1&keywords=learn+you+some+erlang)
+    * This book goes over tail recursion, functional data structures, and a ton of other great concepts.
 * Books I want to read:
   * [Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_11?s=books&ie=UTF8&qid=1530123766&sr=1-11&keywords=Data+Structures)
     * I've heard incredible things about this book. Higher level algorithms, mathematical proofs. Co-authored by Ronald Rivest, the father of RSA cryptography.
