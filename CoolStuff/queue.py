@@ -24,8 +24,3 @@ class Queue:
         data = curr.next.data
         curr.next = None
         return data
-
-
-i = Queue()
-i.push("A")
-i.push("B")
