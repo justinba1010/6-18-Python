@@ -3,3 +3,4 @@ class Dog(Animal):
         self.super()
     def bark():
         print("The dog barks.")
+        
