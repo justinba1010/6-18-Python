@@ -15,7 +15,7 @@ class ReproductiveCritter(Critter):
     def __generate3Vectors(self):
         x = y = z = 0
         while(x == y or y == z or x == z):
-            x = [random.randint(-2,2), random.randint(-2,2)]
-            y = [random.randint(-2,2), random.randint(-2,2)]
-            z = [random.randint(-2,2), random.randint(-2,2)]
+            x = [random.randint(-1,1), random.randint(-1,1)]
+            y = [random.randint(-1,1), random.randint(-1,1)]
+            z = [random.randint(-1,1), random.randint(-1,1)]
         return x,y,z

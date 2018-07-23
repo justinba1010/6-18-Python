@@ -1,19 +1,29 @@
 import random
 
 class Critter:
-    HUNGER_THRESHOLD = 10
-    XRANGE = [0,15]
-    YRANGE = [0,15]
+    HUNGER_THRESHOLD = 15
+    XRANGE = [0,20]
+    YRANGE = [0,20]
     def __init__(self, x, y, hunger):
         self.x = x
         self.y = y
-        self.hunger = 0
+        self.death = False
+        self.hunger = hunger
         self.power = random.random()
-        self.vector = [random.randint(-2,2), random.randint(-2,2)]
+        self.vector = [0,0]
+        while(self.vector == [0,0]):
+            self.vector = [random.randint(-1,1), random.randint(-1,1)]
         self.char = 'X'
+    def die(self):
+        self.death = True
+    def hungry(self):
+        if(self.hunger >= self.HUNGER_THRESHOLD):
+            print("Death by hunger")
+            self.die()
     def update(self):
         self.hunger += 1
         self.move(self.vector)
+        self.hungry()
     def move(self, vector):
         #Check if X vector keeps the critter in bounds, if not make the critter bounce off the wall
         if(self.x + vector[0] < self.XRANGE[0] or self.x + vector[0] > self.XRANGE[1]):
@@ -23,28 +33,26 @@ class Critter:
             vector[1] *= -1
         self.x += vector[0]
         self.y += vector[1]
+
     def collision(self, othercritter):
         #Check if they actually hit each other
         if(self.x == othercritter.x and self.y == othercritter.y):
-            #Check if other critter is a ReproductiveCritter
-            if(str(type(othercritter)) ==  "<class 'ReproductiveCritter.ReproductiveCritter'>"):
-                othercritter.collision(self)
-                return
+            print("Eaten")
             if(self.hunger > othercritter.hunger):
                 #The first critter eats the second
                 self.hunger = 0
-                del(othercritter)
+                othercritter.die()
             elif(self.hunger < othercritter.hunger):
                 #The second critter eats the first
                 othercritter.hunger = 0
-                del(self)
+                self.die()
             else:
                 #The more powerful critter eats the other
                 if(self.power > othercritter.power):
                     self.hunger = 0
-                    del(othercritter)
+                    othercritter.die()
                 else:
                     othercritter.hunger = 0
-                    del(self)
+                    self.die()
     def string(self):
         return self.char
