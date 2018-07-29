@@ -3,7 +3,7 @@ import random
 class ReproductiveCritter(Critter):
     def __init__(self,x,y,hunger):
         Critter.__init__(self,x,y,0)
-        self.char = "R"
+        self.char = "✈"
     def update(self):
         Critter.update(self)
         self.hunger = 0

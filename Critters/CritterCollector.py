@@ -5,17 +5,18 @@ from Locust import *
 import math
 import random
 class CritterCollector:
-    Z = 10
+    Z = 3
     XRANGE = [0,Z]
     YRANGE = [0,Z]
-    COEFFICIENT = 1
+    COEFFICIENT = 1.1
+    COEFFICIENT2 = 1.15
     CRITTERS = [Critter, HungryCritter, ReproductiveCritter, Locust]
-    CHANCEOFCRITTERSPAWN = .625
+    CHANCEOFCRITTERSPAWN = 1
     def __init__(self):
         self.critters = []
     def update(self):
-        if(self.Z < math.pow(len(self.critters), .5) + 5):
-            self.Z = int(math.pow(len(self.critters), .5) + 8)
+        if(self.Z < math.pow(len(self.critters), .5)*self.COEFFICIENT + 5):
+            self.Z = int(math.pow(len(self.critters), .5)*self.COEFFICIENT2 + 8)
             self.XRANGE = [0,self.Z]
             self.YRANGE = [0,self.Z]
         Critter.XRANGE = self.XRANGE

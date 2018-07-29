@@ -13,7 +13,7 @@ class Critter:
         self.vector = [0,0]
         while(self.vector == [0,0]):
             self.vector = [random.randint(-1,1), random.randint(-1,1)]
-        self.char = 'X'
+        self.char = chr(0x26D2)
     def die(self):
         self.death = True
     def hungry(self):
