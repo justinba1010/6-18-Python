@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Board
+comment1.params=
+comment1.target=Board()
+comment2.params=row\ column
+comment2.target=boolean\ isLegalMove(int,\ int)
+comment3.params=player\ row\ column
+comment3.target=boolean\ makeMove(char,\ int,\ int)
+comment4.params=
+comment4.target=boolean\ isOver()
+comment5.params=
+comment5.target=void\ update()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

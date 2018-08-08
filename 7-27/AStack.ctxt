@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AStack
+comment1.params=
+comment1.target=AStack()
+comment2.params=value
+comment2.target=void\ push(int)
+comment3.params=
+comment3.target=int\ pop()
+numComments=4
