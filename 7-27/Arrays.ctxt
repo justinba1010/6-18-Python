@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Arrays
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment2.params=ourArray\ rand
-comment2.target=void\ fillArray(int[],\ java.util.Random)
-comment3.params=ourArray
-comment3.target=void\ printArray(int[])
-numComments=4

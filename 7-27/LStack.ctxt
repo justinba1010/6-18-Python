@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=LStack
-comment1.params=
-comment1.target=LStack()
-comment2.params=value
-comment2.target=void\ push(java.lang.Object)
-comment3.params=
-comment3.target=java.lang.Object\ pop()
-numComments=4
