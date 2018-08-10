@@ -1,4 +1,14 @@
 # Pen Academy Python
+Update 8-10-18
+As the class comes to an end, I want to just post all the great videos we watched.  
+* [P vs NP](https://www.youtube.com/watch?v=YX40hbAHx3s)  
+* [Map of CS](https://www.youtube.com/watch?v=SzJ46YA_RaA)  
+* [Map of Math](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)
+* [Crash Course CS](https://www.youtube.com/watch?v=O5nskjZ_GoI)  
+* [Quantum Computing](https://www.youtube.com/watch?v=JhHMJCUmq28)
+* [Java Swing](https://www.youtube.com/watch?v=ZDw18yUwz6I)  
+Also, please do go through all of the Java Swing stuff for your test, you've learned a great deal of CS, and that will come in handy. However, it looks like a great deal of your class curriculum will be based on the Swing Library. So please don't leave this out, and definitely use it to get acquainted with GUIs.
+
 Update 7-8-18
 [Data Structures](https://www.youtube.com/watch?v=DuDz6B4cqVc)  
 Hi guys. I really recommend watching this. It will go over what we will be glossing over this next week.
