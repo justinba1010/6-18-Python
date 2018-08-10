@@ -12,7 +12,6 @@ About me:
 * [President's List](https://www.sc.edu/about/offices_and_divisions/registrar/transcripts_and_records/honor_lists/president_honor_list.php) at South Carolina
 * Supplemental Instructor at the Math Department in the University of South Carolina
 * Programmer since 3<sup>rd</sup> grade
-* Computer Science and programming are not equal
 
 
 References:
