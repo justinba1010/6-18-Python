@@ -62,3 +62,17 @@ Update 6-27-18
 I have a piece of work I worked with another student. He is preparing for an interview for Amazon, and he has to go over all data structure before he goes in, so we are programming them all from scratch again. Take a look.
 
 Hi class, I am Justin Baum. I am a student at the University of South Carolina. Here I will be posting materials from class as well as cool reference materials and projects you can do to hone in your skills.
+
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Java                            32            213             89           1996
+Python                          42            126             54           1135
+CSS                              1             10             31            533
+HTML                             9              2             77            503
+Markdown                         2             17              0             62
+JavaScript                       1              1              0             29
+-------------------------------------------------------------------------------
+SUM:                            87            369            251           4260
+-------------------------------------------------------------------------------
