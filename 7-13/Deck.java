@@ -7,12 +7,12 @@ class Deck {
 
   public Deck() {
     this.size = 0;
-    this.deck = new Card[52];
     this.rand = new Random();
     this.resetDeck();
   }
 
   public void resetDeck() {
+    this.deck = new Card[52];
     this.size = 0;
     //Generating Deck
     for(Card.Values value : Card.Values.values()) {
@@ -44,7 +44,7 @@ class Deck {
     }
     //Deck is not empty
     this.size--;
-    System.out.println(this.deck[this.size]);
+    //System.out.println(this.deck[this.size]);
     return this.deck[this.size];
   }//deal
 
@@ -60,7 +60,7 @@ class Deck {
   public boolean isEmpty() {
     return this.size == 0;
   }
-  
+
   private void swap(int i, int j) {
     Card iCard = this.deck[i];
     Card jCard = this.deck[j];
