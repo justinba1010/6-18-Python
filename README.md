@@ -66,12 +66,12 @@ Hi class, I am Justin Baum. I am a student at the University of South Carolina. 
 
 Language                     files          blank        comment           code    
     
-Java                            32            213             89           1996  
-Python                          42            126             54           1135   
-CSS                              1             10             31            533      
-HTML                             9              2             77            503   
-Markdown                         2             17              0             62   
-JavaScript                       1              1              0             29   
+Java 1996  
+Python 1135   
+CSS 533      
+HTML 503   
+Markdown  62   
+JavaScript 29   
        
-SUM:                            87            369            251           4260   
+SUM: 4260   
      
