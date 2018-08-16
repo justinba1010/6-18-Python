@@ -63,15 +63,3 @@ I have a piece of work I worked with another student. He is preparing for an int
 
 Hi class, I am Justin Baum. I am a student at the University of South Carolina. Here I will be posting materials from class as well as cool reference materials and projects you can do to hone in your skills.
 
-
-Language                     files          blank        comment           code    
-    
-Java 1996  
-Python 1135   
-CSS 533      
-HTML 503   
-Markdown  62   
-JavaScript 29   
-       
-SUM: 4260   
-     
